@@ -1,0 +1,460 @@
+<!DOCTYPE HTML>
+<!-- 
+Created by: Matthew Crowell
+last edited: 10/1/2020
+page purpose: Shop page to get product sold
+-->
+<html lang = "en">
+<head>
+    <title>Bitpads</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body 
+        {
+            padding-top: 85px;
+        }
+        .logohead
+        {
+            max-height: 50px;
+        }
+        iframe
+        {
+            border-radius: 10px;
+        }
+        .modal-full 
+        {
+            min-width: 90vw;
+            margin-left: 80;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="*"><img class="logohead" src="images/logoBig.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="shop.html">Shop
+                    <span class="sr-only">Shop</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="employment.html">Employment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        
+        <div class="row">
+
+            <div class="col-lg-3">
+                <br>
+                <a href="#myModal"  class="embed-responsive embed-responsive-16by9" role="button" class="btn btn-primary" data-toggle="modal"><img class="embed-responsive-item" style="border-radius: 10px;" src="images/testinginit.jpg" alt="testing inititave"></a>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-full" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Perpetual Testing Initiative</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body p-4" id="result">
+                                <div class="row">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b7rZO2ACP3A" allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="my-4">Investment Catagories</h1>
+                <div class="list-group">
+                <a href="#" class="list-group-item">Panels</a>
+                <a href="#" class="list-group-item">Turrets</a>
+                <a href="#" class="list-group-item">test subject equipment</a>
+                <a href="#" class="list-group-item">Robots</a>
+            </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+            <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                <a href="https://www.youtube.com/watch?v=wX9Sc88qreg"><img class="d-block img-fluid" src="images/boots.jpg" alt="Test subject equipment"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=6i-nMWgBUp0&app=desktop"><img class="d-block img-fluid" src="images/turrets.jpg" alt="Turrets"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=0qcED35LL8I"><img class="d-block img-fluid" src="images/pannels.jpg" alt="Pannels"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=6i-nMWgBUp0"><img class="d-block img-fluid" src="images/robots.jpg" alt="Robots"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+
+            <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_airlock.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="">Glass Pannel</a>
+                    </h4>
+                    <h5>$204.99</h5>
+                    <p class="card-text">Panels are the fundamental building blocks of Aperture Science Test Chambers.
+                         Panels can be placed anywhere, and can be used to form walls, floors, ceilings or even Crushers.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_arm_motionplatform.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Piston platform</a>
+                    </h4>
+                    <h5>$254.99</h5>
+                    <p class="card-text">The primary function of the Victory Lift is to allow the player access to areas that would otherwise be inaccessible. Victory Lifts are traditionally activated when the corresponding Button is activated by the player, and will rise when the player stands on them.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_ball_socket.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Sphere button</a>
+                    </h4>
+                    <h5>$674.99</h5>
+                    <p class="card-text">Buttons are present in virtually all test chambers and, when activated, trigger a variety of effects. Buttons can either control the flow of Excursion Funnels, open and close hatches, release Weighted Storage Cubes, or even open and close the gate leading to the exit.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_companion_cube.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Companion cube</a>
+                    </h4>
+                    <h5>$1000004.99</h5>
+                    <p class="card-text">if you know you KNOW</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_contraption_cube.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Frankenturret</a>
+                    </h4>
+                    <h5>$24.99</h5>
+                    <p class="card-text">Wheatley designed the Frankenturrets to compensate for his lack of test subjects, having intended to design a cube which could walk on buttons themselves. However, they are shown to be utterly useless for that purpose, only wandering around aimlessly and falling over.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_cube.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Weighted cube</a>
+                    </h4>
+                    <h5>$204.99</h5>
+                    <p class="card-text">Cubes are common testing elements throughout the Portal series. They are commonly used to press Buttons, disable Turrets, or redirect Lasers.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_deathfield.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Laser field</a>
+                    </h4>
+                    <h5>$250.99</h5>
+                    <p class="card-text">The Laser fields serve as the opposite of the Material Emancipation Grills - any objects can be carried through the beams but test subjects in contact with it will die instantly.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_edgeless_safety_cube.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Edgeless Safety Cube</a>
+                    </h4>
+                    <h5>$248.99</h5>
+                    <p class="card-text">Cubes are common testing elements throughout the Portal series. They are commonly used to press Buttons, disable Turrets, or redirect Lasers.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_faithplate.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Faith plate</a>
+                    </h4>
+                    <h5>$247.99</h5>
+                    <p class="card-text">This device launches players over a gap or to a specific destination at a set velocity and height. It can be used in conjunction with portals, and the Plate's ability to preserve the velocity of the user makes it an effective means of travel to far or otherwise inaccessible places.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_fizzler.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Fizzler</a>
+                    </h4>
+                    <h5>$500.99</h5>
+                    <p class="card-text">shimmering, semi-transparent particle fields that appear in the Aperture Science testing facilities. Emancipation Grills disintegrate unauthorized Aperture Science equipment and block any portal that passes through, while allowing the player and the Handheld Portal Device to pass without issue.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_frankenturret.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Frankenturret</a>
+                    </h4>
+                    <h5>$24.99</h5>
+                    <p class="card-text">Wheatley designed the Frankenturrets to compensate for his lack of test subjects, having intended to design a cube which could walk on buttons themselves. However, they are shown to be utterly useless for that purpose</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_glass.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">glass</a>
+                    </h4>
+                    <h5>$2664.99</h5>
+                    <p class="card-text">Panels are the fundamental building blocks of Aperture Science Test Chambers.
+                        Panels can be placed anywhere, and can be used to form walls, floors, ceilings or even Crushers.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_goo.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Deadly goo</a>
+                    </h4>
+                    <h5>$504.99</h5>
+                    <p class="card-text">Goo is usually present within testing chambers in order to provide a penalty for failure, and to ensure that test subjects are precise with their movements and positioning of their portals.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_hard_light_emitter.png"></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Light bridge</a>
+                    </h4>
+                    <h5>$406.99</h5>
+                    <p class="card-text">A Hard-Light Bridge (simply known as a Light Bridge,) is a semi-translucent solid made from natural sunlight beamed in from the Earth's surface. It can act as a bridge for the player, a shield against turrets and other hazards, or even a wall for more complex puzzles</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_laser_catcher.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Laser catcher</a>
+                    </h4>
+                    <h5>$704.99</h5>
+                    <p class="card-text">The Beam is fired in a straight line from an immovable device built into the wall or ceiling of a Test Chamber. Each Beam is usually coupled with one Receptacle, and multiple Beams with multiple Receptacles may be present within a single Test Chamber.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_laser_emitter.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Laser emmiter</a>
+                    </h4>
+                    <h5>$10.99</h5>
+                    <p class="card-text">Thermal Discouragement Beams can be angled in certain directions with the use of the Discouragement Redirection Cube and portals. Additionally, the beam holds the ability to travel through transparent objects such as glass. They can also be used as a weapon, as they cause Turrets, with their large ammunition loads, to heat up and explode.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_laser_receptacle.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Laser relay</a>
+                    </h4>
+                    <h5>$2499.99</h5>
+                    <p class="card-text">The Beam is fired in a straight line from an immovable device built into the wall or ceiling of a Test Chamber. Each Beam is usually coupled with one Receptacle, and multiple Beams with multiple Receptacles may be present within a single Test Chamber.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_light_panel.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Light strip</a>
+                    </h4>
+                    <h5>$266.99</h5>
+                    <p class="card-text">makes your room lit</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/toSell/Puzzle_Creator_observation_room.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                    <a href="#">Observation room</a>
+                    </h4>
+                    <h5>$900.99</h5>
+                    <p class="card-text">Watch yout test subjects burn! </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+                </div>
+            </div>
+  
+
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Apature Science</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!--jquery, popper, and bootstrap .js links, in that order-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
