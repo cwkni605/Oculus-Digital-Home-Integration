@@ -1,2 +1,2 @@
-# bitpads
-This is the store page for bitpads.
+# Oculus Digital Home Integration Bitpads
+This is the store page for Oculus Digital Home Integration Bitpads.
